@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 	<remote name="github"
-			fetch=".."
+			fetch="https://github.com/StefanTischler/gerrit_test_manifest"
 			review="https://review.gerrithub.io/StefanTischler/" />
 	<default revision="master"
 			 remote="github"
