@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-	<remote name="source"
+	<remote name="github"
 			fetch=".."
 			review="https://review.gerrithub.io/StefanTischler/" />
 	<default revision="master"
-			 remote="source"
-			 sync-j="2" />
+			 remote="github"
+			 sync-c="true"
+			 sync-j="1" />
 	
 	<project path="gerrit_test" name="gerrit-test" />
 </manifest>
